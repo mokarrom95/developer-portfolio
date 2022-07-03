@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .half-width {
@@ -24,7 +25,7 @@ section {
     width: 85%;
 }
 
-#first-p {
+.first-p {
     text-align: justify;
 }
 
@@ -41,4 +42,15 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.second-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first-p {
+    text-align: justify;
+    margin-right: 100px;
 }
