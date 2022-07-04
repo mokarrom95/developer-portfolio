@@ -4,6 +4,10 @@ body {
 }
 
 h1 {
+    font-size: 50px;
+}
+
+h1 {
     font-size: 40px;
 }
 
@@ -11,7 +15,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 120px;
 }
@@ -25,7 +29,7 @@ section {
     width: 85%;
 }
 
-.first-p {
+p {
     text-align: justify;
 }
 
@@ -53,4 +57,32 @@ section {
 .first-p {
     text-align: justify;
     margin-right: 100px;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#full-stack {
+    border-left: 5px solid tomato;
+}
+
+#kicu-pari-na {
+    border-left: 5px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
